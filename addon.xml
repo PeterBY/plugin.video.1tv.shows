@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.1tv.shows" name="1tv.ru" version="2.0.0" provider-name="PeterBY">
+	<requires>
+	  <import addon="xbmc.python" version="2.24.0"/>
+	  <import addon="script.module.requests" version="2.9.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="main.py">
+	  <provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	  <summary lang="en">1tv shows</summary>
+	  <summary lang="ru">Телепроекты Первого канала</summary>
+	  <description lang="en">1tv shows</description>
+	  <description lang="ru">Телепроекты Первого канала</description>
+	  <disclaimer lang="en">Videos are provided by wwww.1tv.ru/shows</disclaimer>
+	  <disclaimer lang="ru">Источник видео wwww.1tv.ru/shows</disclaimer>
+	  <platform>all</platform>
+	</extension>
+</addon>
